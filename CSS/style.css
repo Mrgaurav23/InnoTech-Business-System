@@ -2,9 +2,124 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family :"Founders Grotesk", sans-serif;
 }
 
 html,body{
     height: 100%;
     width: 100%;
+    color: #FFFFFF;
+}
+
+/* nav  */
+nav{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding:1vw 3vw;
+    position: fixed;
+    z-index: 10;
+}
+
+.nav-inner button{
+    padding: 9px 25px;
+    border-radius: 20px;
+    font-size: 1vw;
+    background-color: #FFA200;
+    border: none;
+    margin-right: 5px;
+}
+
+nav img{
+    height: 50px;
+    width: 50px;
+    mix-blend-mode: difference;
+}
+
+/* page1 */
+
+.page1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    flex-direction: column;
+    text-align: center;
+}
+
+.page1 h1{
+    font-size: 5vw;
+    font-weight: 540;
+    font-family:"Founders Grotesk", sans-serif;
+}
+
+.page1 p{
+    margin-top: 2vh;
+    font-size: 1.5vw;
+    font-weight: 200;
+    font-family:"Founders Grotesk", sans-serif;
+}
+
+.page1 video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+
+.page1-inner{
+    height: 70px;
+    width: 25vw;
+    border-radius: 5px;
+    background-color: rgba(192, 192, 192, 0.144);
+    margin-top: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page1-inner button{
+    margin: 10px;
+    padding: 7px 25px;
+    border-radius: 20px;
+    font-size: 1vw;
+    background-color: #BEBEBE;
+    border: none;
+}
+
+#page1-btn{
+    background-color: #FFA200;
+    margin-right: 20px;
+}
+
+/* page2 */
+
+.page2{
+    height: 40vh;
+    width: 100vw;
+    background-color: #000;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page2 h1{
+    font-size: 4.5vw;
+    font-weight: 400;
+    letter-spacing: 0.1vw;
+    color: #FFA200;
+    transition: all linear 1s;
+}
+
+.page2 h2{
+    font-size: 5vw;
+    font-weight: 300;
+    letter-spacing: 0.1vw;
 }
