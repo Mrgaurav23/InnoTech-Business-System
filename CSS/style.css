@@ -26,7 +26,7 @@ nav{
     padding: 9px 25px;
     border-radius: 20px;
     font-size: 1vw;
-    background-color: #FFA200;
+    background-color: #006dfc;
     border: none;
     margin-right: 5px;
 }
@@ -53,7 +53,7 @@ nav img{
 
 .page1 h1{
     font-size: 5vw;
-    font-weight: 540;
+    font-weight: 740;
     font-family: "Exo 2", sans-serif;
     font-optical-sizing: auto;   
 }
@@ -94,7 +94,7 @@ nav img{
 }
 
 #page1-btn{
-    background-color: #FFA200;
+    background-color: #006dfc;
     margin-right: 20px;
 }
 
