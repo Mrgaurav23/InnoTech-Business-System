@@ -54,7 +54,8 @@ nav img{
 .page1 h1{
     font-size: 5vw;
     font-weight: 540;
-    font-family:"Founders Grotesk", sans-serif;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;   
 }
 
 .page1 p{
