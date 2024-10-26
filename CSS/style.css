@@ -30,6 +30,7 @@ nav{
     border: .5px solid rgb(161, 161, 161);
     color: #FFFFFF;
     margin-right: 5px;
+    transition: .8s;
 }
 
 .nav-inner button:hover{
@@ -98,6 +99,7 @@ nav img{
     font-size: 1vw;
     background-color: #BEBEBE;
     border: none;
+    transition: .8s;
 }
 
 .page1-inner button:hover{
@@ -118,7 +120,7 @@ nav img{
 /* page2 */
 
 .page2{
-    height: 40vh;
+    height: 100vh;
     width: 100vw;
     background-color: #000;
     position: relative;
@@ -140,4 +142,24 @@ nav img{
     font-size: 5vw;
     font-weight: 300;
     letter-spacing: 0.1vw;
+}
+
+#page2-box{
+    margin-top: 8vh;
+    display: flex;
+    gap: 10vw;
+}
+
+#page2-box .box {
+    height: 65vh;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .5px solid #fff;
+}
+
+.box h3{
+    text-transform: uppercase;
+    font-size: 30px;
 }
