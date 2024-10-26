@@ -23,12 +23,19 @@ nav{
 }
 
 .nav-inner button{
-    padding: 9px 25px;
+    padding: 7px 23px;
     border-radius: 20px;
     font-size: 1vw;
-    background-color: #5863f7;
-    border: none;
+    background-color: transparent;
+    border: .5px solid rgb(161, 161, 161);
+    color: #FFFFFF;
     margin-right: 5px;
+}
+
+.nav-inner button:hover{
+    background-color: #006dfc;
+    border: none;
+    color: black;
 }
 
 nav img{
@@ -93,9 +100,19 @@ nav img{
     border: none;
 }
 
+.page1-inner button:hover{
+    background-color: #006dfc;
+}
+
 #page1-btn{
     background-color: #5863f7;
     margin-right: 20px;
+}
+
+#page1-btn:hover{
+    background-color: #BEBEBE;
+    border: none;
+    color: black;
 }
 
 /* page2 */
@@ -115,7 +132,7 @@ nav img{
     font-size: 4.5vw;
     font-weight: 400;
     letter-spacing: 0.1vw;
-    color: #FFA200;
+    color: #006dfcf9;
     transition: all linear 1s;
 }
 
