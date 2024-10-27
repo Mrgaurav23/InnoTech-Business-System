@@ -120,7 +120,7 @@ nav img{
 /* page2 */
 
 .page2{
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
     background-color: #000;
     position: relative;
@@ -147,19 +147,78 @@ nav img{
 #page2-box{
     margin-top: 8vh;
     display: flex;
-    gap: 10vw;
+    gap: 3vw;
 }
 
 #page2-box .box {
     height: 65vh;
-    width: 25vw;
+    width: 30vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: .5px solid #fff;
+    position: relative;
 }
+
 
 .box h3{
     text-transform: uppercase;
+    position: absolute;
     font-size: 30px;
+    bottom: 25px;
+    color: #000;
+    right: 8vw;
+}
+
+.box a{
+    text-decoration: none;
+    position: absolute;
+    bottom: 5px;
+    color: red;
+    z-index: 9;
+}
+
+.box img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    transition: 1s;
+}
+
+.box img:hover{
+    opacity: 0;
+}
+
+ .box video{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+} 
+
+/* Page-3 */
+
+.page3{
+    background-image: url("../Images/page3-back.jpg") ;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.page3 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20vh;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.page3 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
 }
