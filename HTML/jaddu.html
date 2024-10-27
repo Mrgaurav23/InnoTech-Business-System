@@ -1,36 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>J A D D U</title>
-    <link rel="stylesheet" href="../CSS/jaddu.css">
-</head>
-<body>
-    <h1>HII, We are building Jaddu</h1>
-    <button id="start" >vr start</button>
-    <button id="stop" >vr stop</button>
-    <button id="speak" >speak out</button>
-
-    <div class="jaddu-setup inner-middle">
-        <label for="">Your Name</label>
-        <input type="text">
-        <br>
-        <label for="">Your Bio</label>
-        <input type="text">
-        <br>
-        <label for="">Your Location</label>
-        <input type="text">
-        <br>
-        <label for="">Your Linkedin</label>
-        <input type="text">
-        <br>
-        <label for="">Your Github</label>
-        <input type="text">
-        <br>
-        <button class="sub-btn">SUBMIT</button>
+    <link rel="stylesheet" href="../CSS/jaddu.css" />
+  </head>
+  <body>
+    
+    <audio src="../Audio/jaddu.mp3" id="j_intro"></audio>
+    <audio src="../Audio/power up.mp3" id="turn_on"></audio>
+    
+    <div class="machine hide_on_small">
+      <div class="clock cont">
+        <img src="../Images/clock1.png" class="icon" />
+        <p id="time"></p>
+      </div>
+      <div class="internet cont">
+        <img src="../Images/internet1.png" class="icon" />
+        <p id="internet"></p>
+      </div>
+      <div class="battery cont">
+        <img src="../Images/battery1.png" class="icon" />
+        <p id="battery"></p>
+      </div>
+      <img src="../Images/heart.gif" id="heart" />
     </div>
+    
+    <button id="start_jaddu_btn" class="hide_on_small" title="Start Recognition">
+      <img src="../Images/jaddu_start.gif" alt="start jaddu" />
+      <p>Start Recognition</p>
+    </button>
+    
+    <button id="stop_jaddu_btn" class="hide_on_small">
+      <img src="../Images/jaddu_start.gif" alt="start jaddu" />
+      <p>Stop Recognition</p>
+    </button>
+    
+    <div class="small_jaddu hide_on_small">
+      <button id="small_jaddu"><img src="../Images/liquid-mercury-liquid.png" height="350"></button>
+    </div>
+    
+    <div class="jaddu-setup in_middle hide_on_small">
+      <label for="">Your Name</label>
+      <input type="text" />
+      <br />
+      <label for="">Your Bio</label>
+      <input type="text" />
+      <br />
+      <label for="">Your Location</label>
+      <input type="text" />
+      <br />
+      <label for="">Instagram Profile</label>
+      <input type="text" />
+      <br />
+      <label for="">Twitter Profile</label>
+      <input type="text" />
+      <br />
+      <label for="">GitHub Profile</label>
+      <input type="text" />
+      <br />
+      <button class="sub_btn">Submit</button>
+    </div>
+    
+    <div class="messages hide_on_small"></div>
+    <div class="commands in_middle hide_on_small"></div>
 
+    <button id="start" style="display: none;">vr start</button>
+    <button id="stop" style="display: none;">vr stop</button>
+    <button id="speak" style="display: none;">speak</button>
+    
+    <div class="new_jaddu_window">
+      <img src="../Images/heart.gif" height="230" id="jaddu_start"/>
+    </div>
     <script src="../JAVASCRIPT/jaddu.js"></script>
-</body>
-</html>
+  </body>
+  </html>
+  
