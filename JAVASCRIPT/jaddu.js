@@ -34,22 +34,13 @@ jadducommands.push("close this - to close opened popups");
 jadducommands.push(
   "change my information - information regarding your acoounts and you"
 );
-jadducommands.push("whats the weather or temperature");
-jadducommands.push("show the full weather report");
 jadducommands.push("are you there - to check fridays presence");
 jadducommands.push("shut down - stop voice recognition");
 jadducommands.push("open google");
 jadducommands.push('search for "your keywords" - to search on google ');
-jadducommands.push("open whatsapp");
 jadducommands.push("open youtube");
 jadducommands.push('play "your keywords" - to search on youtube ');
 jadducommands.push("close this youtube tab - to close opened youtube tab");
-jadducommands.push("open firebase");
-jadducommands.push("open netlify");
-jadducommands.push("open twitter");
-jadducommands.push("open my twitter profile");
-jadducommands.push("open instagram");
-jadducommands.push("open my instagram profile");
 jadducommands.push("open github");
 jadducommands.push("open my github profile");
 
@@ -132,11 +123,21 @@ recognition.onresult = function (event) {
   }
 
   //close voice recognition jaddu
-  if(transcript.includes("shut down")){
+  if(transcript.includes("shut down") || transcript.includes("shutdown")){
     readOut("Ok, I will take a nap");
     stoppingR = true;
     recognition.stop();
   }
+
+  // userdata access commands
+  
+  if (transcript.includes("what's my name")) {
+    readOut(`Sir, I know that you are ${JSON.parse(userData).name}`);
+  }
+  if (transcript.includes("what's my bio")) {
+    readOut(`Sir, I know that you are ${JSON.parse(userData).bio}`);
+  }
+    
 
   //Openning youtube
   if (transcript.includes("open youtube")) {
@@ -144,6 +145,19 @@ recognition.onresult = function (event) {
     let a = window.open("https://www.youtube.com/");
     windowsB.push(a);
   }
+
+  if (transcript.includes("play")) {
+    let playStr = transcript.split("");
+    playStr.splice(0, 5);
+    let videoName = playStr.join("");
+    playStr = playStr.join("").split(" ").join("+");
+    readOut(`searching youtube for ${videoName}`);
+    let a = window.open(`https://www.youtube.com/search?q=${playStr}`
+    );
+    windowsB.push(a)
+  }
+
+
   //Openning google
   if (transcript.includes("open google")) {
     readOut("openning google Sir");
@@ -181,6 +195,12 @@ recognition.onresult = function (event) {
     document.querySelector(".commands").style.display = "none";
     setup.style.display = "none";
   }
+  // jarvis bio
+  if (transcript.includes("tell about yourself")) {
+    readOut(
+      "sir, i am a jaddu, a voice asistant made for browsers using javascript by one of the Enthusiastic dev on the planet. I can do anything which can be done from a browser."
+    );
+  }
 
   //changing user information command.
   if (transcript.includes("change my information")) {
@@ -211,8 +231,10 @@ function autoJaddu(){
 //onload(window)
 window.onload = () => {
   //OnStartUp
-  // turnOn.play();
-    turnOn.addEventListener("onend", () => {
+  turnOn.addEventListener("onstart", () => {
+    turnOn.play();
+  },200)
+  turnOn.addEventListener("onend", () => {
         setTimeout( () => {
             autoJaddu();
             readOut("Ready to go sir");
@@ -261,6 +283,8 @@ window.onload = () => {
   jadducommands.forEach( (elem) => {
     document.querySelector(".commands").innerHTML += `<p>${elem}</p><br/>`
   })
+
+
 };
 
 //SR Stop
