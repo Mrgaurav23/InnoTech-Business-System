@@ -2,7 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Founders Grotesk", sans-serif;
+  font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: normal;
+ 
 }
 
 html,
@@ -63,7 +66,6 @@ nav img {
 .page1 h1 {
   font-size: 5vw;
   font-weight: 740;
-  font-family: "Exo 2", sans-serif;
   font-optical-sizing: auto;
 }
 
@@ -71,7 +73,8 @@ nav img {
   margin-top: 2vh;
   font-size: 1.5vw;
   font-weight: 200;
-  font-family: "Founders Grotesk", sans-serif;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
 }
 
 .page1 video {
@@ -167,8 +170,8 @@ nav img {
 }
 
 #page2-box .box {
-  height: 65vh;
-  width: 30vw;
+  height: 65.5vh;
+  width: 28vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -182,18 +185,18 @@ nav img {
   font-size: 2.5vw;
   font-weight: 500;
   transition: all ease 0.5s;
-  color: #000;
+  color: #fff;
 }
 
 .box p {
   position: absolute;
-  bottom: 10%;
+  bottom: 5%;
   width: 25vw;
   font-size: 1.3vw;
   font-weight: 500;
-  /* opacity: 0; */
+  opacity: 0;
   transition: all ease 0.7s;
-  color: #000;
+  color: #fff;
 }
 
 .box img {
