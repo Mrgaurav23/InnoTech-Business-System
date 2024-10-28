@@ -118,6 +118,21 @@ nav img {
   color: black;
 }
 
+.adding-jaddu{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  bottom: 1%;
+  right: 2%;
+}
+
+.adding-jaddu a>img{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: rgb(146, 210, 232);
+}
+
 /* page2 */
 
 .page2 {
