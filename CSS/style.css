@@ -25,8 +25,23 @@ body {
   top: 0%;
   transition: all ease 0.8s;
   opacity: 1;
+  padding-top: 13vh;
+  padding-left: 2vw;
 }
 
+.full-div span{
+  color: #006dfc;
+}
+
+.full-div ul{
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+}
+
+.full-div li{
+  padding-top: 7px;
+  list-style: none;
+}
 /* nav  */
 nav {
   height: 100px;
