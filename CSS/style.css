@@ -25,12 +25,29 @@ body {
   top: 0%;
   transition: all ease 0.8s;
   opacity: 1;
-  padding-top: 13vh;
-  padding-left: 2vw;
+}
+
+.full-div-inner{
+  display: flex;
+  padding: 7vw 1vw;
+}
+
+.full-div-left{
+  /* background-color: red; */
+  height: 90vh;
+  width: 30vw;
+}
+
+.full-div-right{
+  /* background-color: aqua; */
+  height: 90vh;
+  width: 70vw;
 }
 
 .full-div span{
   color: #006dfc;
+  font-size: 2vw;
+  font-family:"Founders Grotesk", sans-serif;
 }
 
 .full-div ul{
@@ -38,10 +55,32 @@ body {
   margin-bottom: 5vh;
 }
 
-.full-div li{
+.full-div a{
   padding-top: 7px;
   list-style: none;
+  font-size: 1vw;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  font-weight: 400;
+  font-family:"Founders Grotesk", sans-serif;
+  font-size: 1.8vw;
 }
+
+.full-div a:hover{
+  color: #006dfc;
+  margin-left: 10px;
+  transition: all ease 0.2s;
+}
+
+.full-div-right ul a{
+  font-size: 3vw;
+  font-family:"Founders Grotesk", sans-serif;
+  font-weight: 600;
+}
+
+
 /* nav  */
 nav {
   height: 100px;
@@ -100,7 +139,7 @@ nav img {
   margin-top: 2vh;
   font-size: 1.5vw;
   font-weight: 200;
-  font-family:"Dancing script" , cursive;
+  font-family:"Founders Grotesk", sans-serif;
   font-optical-sizing: auto;
 }
 
