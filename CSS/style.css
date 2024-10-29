@@ -277,6 +277,10 @@ nav img {
   width: 100%;
 }
 
+.page2 button{
+  opacity: 0;
+}
+
 /* Page-3 */
 
 .page3 {
