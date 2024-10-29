@@ -9,3 +9,118 @@ html,body{
     height: 100%;
     width: 100%;
 }
+/* nav  */
+nav {
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 3vw;
+    position: fixed;
+    z-index: 10;
+  }
+  
+  .nav-inner button {
+    padding: 5px 23px;
+    border-radius: 20px;
+    font-size: 4vw;
+    background-color: transparent;
+    border: 0.5px solid rgb(161, 161, 161);
+    color: #ffffff;
+    margin-right: 5px;
+    transition: 0.8s;
+    margin-top: 25px;
+  }
+  
+  .nav-inner button:hover {
+    background-color: #006dfc;
+    border: none;
+    color: black;
+  }
+  
+  nav img {
+    height: 80px;
+    width: 80px;
+    mix-blend-mode: difference;
+  }
+  
+  /* page1 */
+  
+  .page1 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .page1 h1 {
+    font-size: 10vw;
+    font-weight: 740;
+    font-optical-sizing: auto;
+  }
+  
+  .page1 p {
+    margin-top: 2vh;
+    font-size: 4vw;
+    font-weight: 200;
+    font-family: "Founders Grotesk", sans-serif;
+    font-optical-sizing: auto;
+  }
+  
+  .page1 video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+  }
+  
+  .page1-inner {
+    margin-top: 6vh;
+  }
+  
+  .page1-inner button {
+    margin: 10px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 3vw;
+    background-color: #bebebe;
+    border: none;
+    transition: 0.8s;
+  }
+  
+  .page1-inner button:hover {
+    background-color: #006dfc;
+  }
+  
+  #page1-btn {
+    background-color: #006dfc;
+    margin-right: 20px;
+  }
+  
+  #page1-btn:hover {
+    background-color: #bebebe;
+    border: none;
+    color: black;
+  }
+  
+  .adding-jaddu {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 1%;
+    right: 2%;
+  }
+  
+  .adding-jaddu a > img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: rgb(146, 210, 232);
+  }
+  

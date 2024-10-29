@@ -23,7 +23,7 @@ body {
   z-index : 5;
   top: 0%;
   transition: all ease 0.8s;
-  opacity: 1;
+  opacity: 0;
 }
 
 .full-div-inner {
@@ -32,13 +32,11 @@ body {
 }
 
 .full-div-left {
-  /* background-color: red; */
   height: 90vh;
   width: 30vw;
 }
 
 .full-div-right {
-  /* background-color: aqua; */
   height: 90vh;
   width: 70vw;
 }
@@ -46,7 +44,6 @@ body {
 .full-div span {
   color: #006dfc;
   font-size: 2vw;
-  /* font-family:"Founders Grotesk", sans-serif; */
 }
 
 .full-div ul {
@@ -74,7 +71,6 @@ body {
 
 .full-div-right ul a {
   font-size: 3vw;
-  /* font-family:"Founders Grotesk", sans-serif; */
   font-weight: 600;
 }
 
@@ -104,6 +100,7 @@ nav {
   background-color: #006dfc;
   border: none;
   color: black;
+  cursor: pointer;
 }
 
 nav img {
