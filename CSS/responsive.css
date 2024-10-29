@@ -1,11 +1,272 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html,body{
-    position: relative;
-    height: 100%;
-    width: 100%;
+html,
+body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
+
+/* full div */
+.full-div {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background-color: #1b1616;
+  z-index : 5;
+  top: 0%;
+  transition: all ease 0.8s;
+  opacity: 0;
+}
+
+.full-div-inner {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 23vw 2vw;
+}
+
+.full-div-left {
+  height: 60vh;
+  width: 90vw;
+}
+
+.full-div-right {
+  height: 40vh;
+  width: 90vw;
+}
+
+.full-div span {
+  color: #006dfc;
+  font-size: 4vw;
+}
+
+.full-div ul {
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+}
+
+.full-div a {
+  padding-top: 7px;
+  list-style: none;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  font-weight: 400;
+  font-size: 4vw;
+}
+
+.full-div a:hover {
+  color: #006dfc;
+  margin-left: 10px;
+  transition: all ease 0.2s;
+}
+
+.full-div-right ul a {
+  font-size: 8vw;
+  font-weight: 600;
+}
+
+/* nav  */
+nav {
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw 3vw;
+  position: fixed;
+  z-index: 10;
+}
+
+.nav-inner button {
+  padding: 5px 23px;
+  border-radius: 20px;
+  font-size: 4vw;
+  background-color: transparent;
+  border: 0.5px solid rgb(161, 161, 161);
+  color: #ffffff;
+  margin-right: 5px;
+  transition: 0.8s;
+  margin-top: 25px;
+}
+
+.nav-inner button:hover {
+  background-color: #006dfc;
+  border: none;
+  color: black;
+}
+
+nav img {
+  height: 80px;
+  width: 80px;
+  mix-blend-mode: difference;
+}
+
+/* page1 */
+
+.page1 {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  flex-direction: column;
+  text-align: center;
+}
+
+.page1 h1 {
+  font-size: 10vw;
+  font-weight: 740;
+  font-optical-sizing: auto;
+}
+
+.page1 p {
+  margin-top: 2vh;
+  font-size: 4vw;
+  font-weight: 200;
+  font-family: "Founders Grotesk", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.page1 video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
+}
+
+.page1-inner {
+  opacity: 0;
+}
+
+.page1-inner button {
+  margin: 10px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  font-size: 3vw;
+  background-color: #bebebe;
+  border: none;
+  transition: 0.8s;
+}
+
+.page1-inner button:hover {
+  background-color: #006dfc;
+}
+
+#page1-btn {
+  background-color: #006dfc;
+  margin-right: 20px;
+}
+
+#page1-btn:hover {
+  background-color: #bebebe;
+  border: none;
+  color: black;
+}
+
+.adding-jaddu {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  bottom: 1%;
+  right: 2%;
+}
+
+.adding-jaddu a > img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: rgb(146, 210, 232);
+}
+
+.page2 {
+  height: 70vh;
+  width: 100vw;
+  background-color: #000;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#page2-box button{
+  opacity: 1;
+}
+
+.page2 h1 {
+  font-size: 4.5vw;
+  font-weight: 400;
+  letter-spacing: 0.1vw;
+  color: #006dfcf9;
+  transition: all linear 1s;
+}
+
+.page2 h2 {
+  font-size: 5vw;
+  font-weight: 300;
+  letter-spacing: 0.1vw;
+}
+
+#page2-box {
+  margin-top: 8vh;
+  display: flex;
+  gap: 3vw;
+}
+
+#page2-box .box {
+  height: 45vh;
+  width: 95vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.box h3 {
+  position: absolute;
+  bottom: 3%;
+  margin-bottom: 1vw;
+  font-size: 5vw;
+  font-weight: 500;
+  transition: all ease 0.5s;
+  color: #fff;
+}
+
+.box p {
+  position: absolute;
+  bottom: 5%;
+  width: 80vw;
+  font-size: 4vw;
+  font-weight: 500;
+  opacity: 0;
+  transition: all ease 0.7s;
+  color: #fff;
+}
+
+.box img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0px;
+  transition: 1s;
+}
+
+.box img:hover {
+  opacity: 0;
+}
+
+.box video {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
