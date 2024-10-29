@@ -20,7 +20,7 @@ body {
   height: 100vh;
   width: 100vw;
   position: absolute;
-  background-color: #000;
+  background-color: #1b1616;
   z-index : 5;
   top: 0%;
   transition: all ease 0.8s;
@@ -29,7 +29,7 @@ body {
 
 .full-div-inner{
   display: flex;
-  padding: 7vw 1vw;
+  padding: 7vw 2vw;
 }
 
 .full-div-left{
@@ -47,7 +47,7 @@ body {
 .full-div span{
   color: #006dfc;
   font-size: 2vw;
-  font-family:"Founders Grotesk", sans-serif;
+  /* font-family:"Founders Grotesk", sans-serif; */
 }
 
 .full-div ul{
@@ -58,14 +58,13 @@ body {
 .full-div a{
   padding-top: 7px;
   list-style: none;
-  font-size: 1vw;
   margin-bottom: 10px;
   color: #ffffff;
   text-decoration: none;
   display: block;
   font-weight: 400;
-  font-family:"Founders Grotesk", sans-serif;
-  font-size: 1.8vw;
+  /* font-family:"Founders Grotesk", sans-serif; */
+  font-size: 1.5vw;
 }
 
 .full-div a:hover{
@@ -76,7 +75,7 @@ body {
 
 .full-div-right ul a{
   font-size: 3vw;
-  font-family:"Founders Grotesk", sans-serif;
+  /* font-family:"Founders Grotesk", sans-serif; */
   font-weight: 600;
 }
 
