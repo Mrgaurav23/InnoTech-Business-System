@@ -78,6 +78,9 @@ body {
   font-weight: 600;
 }
 
+/* LogIn */
+
+
 /* nav  */
 nav {
   height: 100px;
@@ -313,7 +316,7 @@ nav img {
 
 .scroller {
   margin-top: 4vh;
-  height: 18vh;
+  height: 24vh;
   width: 100%;
   position: relative;
   white-space: nowrap;
