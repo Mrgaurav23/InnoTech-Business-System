@@ -270,3 +270,174 @@ nav img {
   width: 100%;
 }
 
+/* Page-3 */
+
+.page3 {
+  background-image: url("../Images/page3-back.jpg");
+  background-size: cover;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.page3 h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8vw;
+  text-transform: uppercase;
+}
+
+.page3 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2vw;
+  font-size: 5vw;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 2vw;
+}
+
+.scroller {
+  margin-top: 4vh;
+  height: 24vh;
+  width: 100%;
+  position: relative;
+  white-space: nowrap;
+  padding: 2vw;
+  overflow: hidden;
+}
+
+.scroller-in {
+  display: inline-block;
+  animation-name: scroll;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.scroller-in img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 2vw;
+}
+
+@keyframes scroll {
+  0%{
+    transform: translateX(0%);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+}
+
+
+/* page4 */
+.page4{
+  position: relative;
+  height: 225vh;
+  width: 100vw;
+  background-color: #000000;
+  padding: 4vw 2vw;
+  display: flex;
+  border-bottom: 1px solid #BEBEBE;
+  flex-direction: column;
+}
+
+.page4 h1{
+  width: 90vw;
+  font-size: 6vw;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 2vw;
+}
+
+.page4 h1 span{
+  color: #006dfc;
+}
+
+.page4-inner{
+  display: flex;
+  border-bottom: 0.5px solid #bebebe;
+  flex-direction: column-reverse;
+}
+
+.page4-left{
+  height: 40vh;
+  width: 95vw;
+  position: relative;
+}
+
+.page4-left h3{
+  font-size: 5vw;
+  font-weight: 200;
+  color: #edecec;
+}
+
+.page4-left h2{
+  font-size: 9vw;
+  font-weight: 500;
+  margin-bottom: 3vw;
+}
+
+.page4-left p{
+  width: 90vw;
+  font-size: 5vw;
+  font-weight: 100;
+  color: #edecec;
+}
+
+.page4-left button{
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 50px;
+  bottom: 10%;
+  width: 90vw;
+  background-color: #006dfc;
+}
+
+.page4-left button:hover{
+  background-color: beige;
+  border: none;
+  transition: all ease 0.2s;
+}
+
+.page4-right{
+  height: 30vh;
+  width: 95vw;
+}
+
+.page4-right img{
+  width: 90%;
+  height: 7.6%;
+  margin-top: 10vh;
+  padding-left: 2vw;
+  position: absolute;
+  opacity: 1;
+}
+
+
+.page4-right img:hover{
+  opacity: 0;
+}
+
+.page4-right video{
+  position: absolute;
+  width: 90%;
+  object-fit: cover;
+  margin-top: 10vh;
+  opacity: 0;
+  padding-left: 2vw;
+  transition: all ease 0.3s;
+}
+
+.page4-right video:hover{
+  opacity: 1;
+}
+

@@ -289,7 +289,7 @@ nav img {
 .page3 {
   background-image: url("../Images/page3-back.jpg");
   background-size: cover;
-  height: 100vh;
+  height: 70vh;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -301,7 +301,7 @@ nav img {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 80px;
+  font-size: 5vw;
   text-transform: uppercase;
 }
 
@@ -310,9 +310,10 @@ nav img {
   justify-content: center;
   align-items: center;
   padding-top: 10px;
-  font-size: 20px;
+  font-size: 4vw;
   color: #fff;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .scroller {
@@ -349,3 +350,102 @@ nav img {
     transform: translateX(-100%);
   }
 }
+
+/* page4 */
+.page4{
+  position: relative;
+  height: 300vh;
+  width: 100vw;
+  background-color: #000000;
+  padding: 4vw 2vw;
+  display: flex;
+  border-bottom: 1px solid #BEBEBE;
+  flex-direction: column;
+}
+
+.page4 h1{
+  font-size: 3vw;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 3vw;
+}
+
+.page4 h1 span{
+  color: #006dfc;
+}
+
+.page4-inner{
+  display: flex;
+  border-bottom: 0.5px solid #bebebe;
+}
+
+.page4-left{
+  height: 65vh;
+  width: 50vw;
+  position: relative;
+}
+
+.page4-left h3{
+  margin-top: 10vh;
+  font-size: 1vw;
+  font-weight: 200;
+  margin-bottom: 3vh;
+  color: #edecec;
+}
+
+.page4-left h2{
+  font-size: 3vw;
+  font-weight: 500;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.page4-left p{
+  width: 25vw;
+  font-size: 1.3vw;
+  font-weight: 100;
+  color: #edecec;
+}
+
+.page4-left button{
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 50px;
+  bottom: 20%;
+  background-color: #006dfc;
+}
+
+.page4-right{
+  height: 65vh;
+  width: 50vw;
+}
+
+.page4-right img{
+  width: 42%;
+  /* height: 14.6%; */
+  margin-top: 10vh;
+  padding-left: 2vw;
+  position: absolute;
+  opacity: 1;
+}
+
+
+.page4-right img:hover{
+  opacity: 0;
+}
+
+.page4-right video{
+  position: absolute;
+  width: 42%;
+  object-fit: cover;
+  margin-top: 10vh;
+  opacity: 0;
+  padding-left: 2vw;
+  transition: all ease 0.3s;
+}
+
+.page4-right video:hover{
+  opacity: 1;
+}
+
+
