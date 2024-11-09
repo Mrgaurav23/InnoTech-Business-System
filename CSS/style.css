@@ -349,3 +349,63 @@ nav img {
     transform: translateX(-100%);
   }
 }
+
+
+/* page4 */
+
+.page4{
+  background-color: #000;
+  height: 100vh;
+  padding-top: 40px;
+}
+
+.page4 h1 {
+ font-size: 40px;
+ 
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+}
+
+.page4 h1 span{
+  color: #FFA200;
+  overflow-wrap: break-word;
+  font-weight: inherit;
+  
+}
+
+.samester .samester01{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2vw;
+  padding-right: 3vw;
+  padding-top: 6vw;
+}
+.samester .samester01 h2{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+.samester .samester01 p{
+  width: 50%;
+}
+.samester .samester01 button:hover{
+  background-color: #006dfc;
+  transition: 0.8s;
+  border: 0;
+}
+.samester .samester01 button{
+  margin-top: 5vw;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  padding: 5px 20px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #000; 
+}
+
+.samester01 .video img{
+  width: 35vw;
+  height: 45vh;
+}
