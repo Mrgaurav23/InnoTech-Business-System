@@ -356,7 +356,7 @@ nav img {
 /* page4 */
 .page4{
   position: relative;
-  height: 300vh;
+  height: 357vh;
   width: 100vw;
   background-color: #000000;
   padding: 4vw 2vw;
@@ -425,7 +425,7 @@ nav img {
 
 .page4-right img{
   width: 42%;
-  /* height: 14.6%; */
+  height: 14%;
   margin-top: 10vh;
   padding-left: 2vw;
   position: absolute;
@@ -439,7 +439,7 @@ nav img {
 
 .page4-right video{
   position: absolute;
-  height: 15.7%;
+  height: 14%;
   width: 42%;
   object-fit: cover;
   margin-top: 10vh;
