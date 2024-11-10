@@ -57,15 +57,6 @@ function fontChange() {
     }
     setTimeout(updateText, 1500);
   }
-
-  gsap.from(".page2 h1",{
-    y: 10,
-    duration : 1,
-    delay : 1,
-    repeat : -1,
-    yoyo:true,
-  })
-  updateText();
 }
 
 //page2 box transiton Text
@@ -116,28 +107,10 @@ function navbar(){
   })
 }
 
-// function gsap(){
-//   let tl = gsap.timeline();
-  
-//   tl.to("nav img"),{
-//     y:-20,
-//     duration:1,
-//     delay:0.5,
-//     opacity:0
-//   }
-//   tl.to("nav button",{
-//     y:-20,
-//     duration:1,
-//     delay:0.5,
-//     opacity:0,
-//   })
-// }
-
 function call(){
   locomotive();
   fontChange();
   page2Box();
   navbar();
-  // gsap();
 }
 call();
