@@ -55,12 +55,9 @@ function fontChange() {
     if (carrer.length == carrerIndex) {
       carrerIndex = 0;
     }
-
     setTimeout(updateText, 1500);
   }
-  updateText();
 }
-fontChange();
 
 //page2 box transiton Text
 function page2Box() {

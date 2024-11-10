@@ -9,7 +9,6 @@ body {
   position: relative;
   height: 100%;
   width: 100%;
-  overflow-x: hidden;
 }
 
 /* full div */
@@ -119,6 +118,7 @@ nav img {
   color: #ffffff;
   flex-direction: column;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .page1 h1 {
@@ -220,6 +220,7 @@ nav img {
   margin-top: 8vh;
   display: flex;
   gap: 3vw;
+  overflow-x: auto;
 }
 
 #page2-box .box {
@@ -229,6 +230,7 @@ nav img {
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow-x: auto;
 }
 
 .box h3 {
