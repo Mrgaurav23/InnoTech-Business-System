@@ -290,7 +290,7 @@ nav img {
 .page3 {
   background-image: url("../Images/page3-back.jpg");
   background-size: cover;
-  height: 70vh;
+  height: 100vh;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -302,6 +302,7 @@ nav img {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #2b4f3f;
   font-size: 5vw;
   text-transform: uppercase;
 }
@@ -311,14 +312,14 @@ nav img {
   justify-content: center;
   align-items: center;
   padding-top: 10px;
-  font-size: 4vw;
-  color: #fff;
+  font-size: 3vw;
+  color: #000;
   text-transform: uppercase;
   text-align: center;
 }
 
 .scroller {
-  margin-top: 4vh;
+  margin-top: 15vh;
   height: 24vh;
   width: 100%;
   position: relative;
@@ -413,6 +414,7 @@ nav img {
   padding: 10px 20px;
   border-radius: 50px;
   bottom: 20%;
+  border: 0;
   background-color: #006dfc;
 }
 
@@ -437,6 +439,7 @@ nav img {
 
 .page4-right video{
   position: absolute;
+  height: 15.7%;
   width: 42%;
   object-fit: cover;
   margin-top: 10vh;
