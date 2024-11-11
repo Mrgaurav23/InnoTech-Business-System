@@ -337,9 +337,9 @@ nav img {
 }
 
 .scroller-in img {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
+  height: 30px;
+  /* width: 100; */
+  /* border-radius: 50%; */
   object-fit: cover;
   margin-left: 2vw;
 }
@@ -462,30 +462,56 @@ nav img {
   padding-top: 5vh;
 }
 
-.page5 .right{
-  background-color: #000;
-  height: 100vh;
-  width: 50vw;
-
-}
 .page5 .left{
-  background-color: #cdc7c7;
+  background-color: #080808;
   height: 100vh;
   width: 50vw;
+
+}
+.page5 .right{
+  background-color: #888686;
+  height: 100vh;
+  width: 50vw;
+  color: black;
 }
 
-.page5 .right img{
+.page5 .left img{
   height: 55px;
   /* width: 1-; */
   margin-left: 2vw;
   margin-top: 5vh;
 }
 
-.page5 .right h1{
+.page5 .left h1{
   display: flex;
   justify-content: center;
   margin-top: 5vh;
   margin-bottom: 3vh;
+}
+
+.page5 .left p{
+  margin: 0 2vw;
+  font-size: 17px;
+}
+
+.page5 .left:hover{
+  width: 52vw;
+  transition: 0.5s;
+}
+
+.page5 .right:hover{
+  width: 52vw;
+  transition: 0.5s;
+}
+
+.page5 .right h1{
+  letter-spacing: 0.1vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  font-size: 33px;
+  font-weight: 700;
 }
 
 .page5 .right p{
