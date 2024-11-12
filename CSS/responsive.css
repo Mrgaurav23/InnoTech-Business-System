@@ -455,6 +455,7 @@ nav img {
   background-color: #080808;
   height: 100vh;
   width: 100vw;
+  padding: 4vw;
 }
 
 .page5 .right{
@@ -462,4 +463,131 @@ nav img {
   height: 100vh;
   width: 100vw;
   color: black;
+  padding: 4vw;
+}
+
+footer{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+  padding: 2vw;
+}
+
+.footer-inner{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-left{
+  width: 100vw;
+  height: 30vh;
+}
+
+.footer-left img{
+  width: 20vw;
+  margin-bottom: 3vw;
+  margin-top: 10vw;
+}
+
+.footer-left h1{
+  font-size: 5vw;
+  margin-top: 3vw;
+  margin-bottom: 8vw;
+}
+
+.footer-left button{
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 0;
+  background-color: #006dfc;
+}
+
+.footer-right{
+  width: 100vw;
+  height: 70vh;
+}
+
+.footer-inner-right{
+  display: flex;
+  justify-content: flex-start;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+.footer-right-left{
+  width: 40vw;
+}
+
+.footer-right-left span {
+  color: #006dfc;
+  font-size: 6vw;
+}
+
+.footer-right-left ul {
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+}
+
+.footer-right-left a {
+  padding-top: 7px;
+  list-style: none;
+  margin-bottom: 5vw;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  font-weight: 200;
+  font-size: 4vw;
+}
+
+.footer-right-left a:hover {
+  color: #006dfc;
+  margin-left: 10px;
+  transition: all ease 0.2s;
+}
+
+.footer-right-left ul a {
+  font-size: 4vw;
+  font-weight: 200;
+  margin-bottom: 1vw;
+}
+
+.footer-right-right{
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+}
+
+
+.footer-right-right span {
+  color: #006dfc;
+  font-size: 6vw;
+}
+
+.footer-right-right ul {
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+}
+
+.footer-right-right a {
+  padding-top: 7px;
+  list-style: none;
+  margin-bottom: 6vw;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  font-weight: 200;
+  font-size: 4vw;
+}
+
+.footer-right-right a:hover {
+  color: #006dfc;
+  margin-left: 10px;
+  transition: all ease 0.2s;
+}
+
+.footer-right-left ul a {
+  font-size: 4vw;
+  margin-bottom: 7vw;
+  font-weight: 200;
 }
