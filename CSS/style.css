@@ -356,7 +356,7 @@ nav img {
 /* page4 */
 .page4{
   position: relative;
-  height: 357vh;
+  height: 355vh;
   width: 100vw;
   background-color: #000000;
   padding: 4vw 2vw;
@@ -455,8 +455,6 @@ nav img {
 /* Page5 */
 
 .page5{
-  /* height: 100vh; */
-  /* width: 100vw; */
   display: flex;
   background-color: #000;
   padding-top: 5vh;
@@ -469,7 +467,7 @@ nav img {
 
 }
 .page5 .right{
-  background-color: #888686;
+  background-color: #cac9c9;
   height: 100vh;
   width: 50vw;
   color: black;
@@ -494,27 +492,133 @@ nav img {
   font-size: 17px;
 }
 
-.page5 .left:hover{
-  width: 52vw;
-  transition: 0.5s;
-}
-
-.page5 .right:hover{
-  width: 52vw;
-  transition: 0.5s;
-}
-
 .page5 .right h1{
   letter-spacing: 0.1vw;
   display: flex;
   justify-content: center;
-  margin-top: 1vh;
+  margin-top: 3vh;
   margin-bottom: 3vh;
   font-size: 33px;
   font-weight: 700;
 }
 
+.page5 .right h1:nth-child(1){
+  margin-top: 10vh;
+}
+
 .page5 .right p{
   margin: 0 2vw;
   font-size: 17px;
+}
+
+footer{
+  position: relative;
+  height: 45vh;
+  width: 100vw;
+  background-color: #000;
+  padding: 2vw;
+}
+
+.footer-inner{
+  display: flex;
+}
+
+.footer-left{
+  width: 65vw;
+}
+
+.footer-left img{
+  width: 7vw;
+  margin-bottom: 1.5vw;
+}
+
+.footer-left h1{
+  font-size: 1.5vw;
+  margin-bottom: 2vw;
+}
+
+.footer-left button{
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 0;
+  background-color: #006dfc;
+}
+
+.footer-right{
+  width: 35vw;
+}
+
+.footer-inner-right{
+  display: flex;
+  width: 30vw;
+  margin-left: 4vw;
+}
+
+.footer-right-left span {
+  color: #006dfc;
+  font-size: 1.5vw;
+}
+
+.footer-right-left ul {
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+}
+
+.footer-right-left a {
+  padding-top: 7px;
+  list-style: none;
+  margin-bottom: 5px;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  font-weight: 400;
+  font-size: 1vw;
+}
+
+.footer-right-left a:hover {
+  color: #006dfc;
+  margin-left: 10px;
+  transition: all ease 0.2s;
+}
+
+.footer-right-left ul a {
+  font-size: 1vw;
+  font-weight: 600;
+}
+
+.footer-right-right{
+  margin-left: 8vw;
+}
+
+
+.footer-right-right span {
+  color: #006dfc;
+  font-size: 1.5vw;
+}
+
+.footer-right-right ul {
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+}
+
+.footer-right-right a {
+  padding-top: 7px;
+  list-style: none;
+  margin-bottom: 5px;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  font-weight: 400;
+  font-size: 1vw;
+}
+
+.footer-right-right a:hover {
+  color: #006dfc;
+  margin-left: 10px;
+  transition: all ease 0.2s;
+}
+
+.footer-right-left ul a {
+  font-size: 1vw;
+  font-weight: 600;
 }
