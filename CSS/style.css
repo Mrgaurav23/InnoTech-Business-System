@@ -319,7 +319,7 @@ nav img {
 }
 
 .scroller {
-  margin-top: 15vh;
+  margin-top: 25vh;
   height: 24vh;
   width: 100%;
   position: relative;
@@ -508,7 +508,7 @@ nav img {
   letter-spacing: 0.1vw;
   display: flex;
   justify-content: center;
-  margin-top: 5vh;
+  margin-top: 1vh;
   margin-bottom: 3vh;
   font-size: 33px;
   font-weight: 700;
