@@ -444,3 +444,22 @@ nav img {
   opacity: 1;
 }
 
+.page5{
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  padding-top: 5vh;
+}
+
+.page5 .left{
+  background-color: #080808;
+  height: 100vh;
+  width: 95vw;
+}
+
+.page5 .right{
+  background-color: #888686;
+  height: 100vh;
+  width: 95vw;
+  color: black;
+}
