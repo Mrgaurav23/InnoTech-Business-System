@@ -458,24 +458,24 @@ nav img {
   display: flex;
   background-color: #000;
   padding-top: 5vh;
+  /* height: 150vh; */
 }
 
 .page5 .left{
   background-color: #080808;
-  height: 100vh;
+  height: 115vh;
   width: 50vw;
   
 }
 .page5 .right{
   background-color: #cac9c9;
-  height: 100vh;
+  height: 115vh;
   width: 50vw;
   color: black;
 }
 
 .page5 .left img{
   height: 55px;
-  /* width: 1-; */
   margin-left: 2vw;
   margin-top: 5vh;
 }
@@ -513,7 +513,7 @@ nav img {
 
 footer{
   position: relative;
-  height: 45vh;
+  height: 65vh;
   width: 100vw;
   background-color: #000;
   padding: 2vw;

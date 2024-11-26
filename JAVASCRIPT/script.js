@@ -114,3 +114,16 @@ function call(){
   navbar();
 }
 call();
+
+gsap.to("#page2-box .box",{
+  transform:"translateX(-100%)",
+  scrollTrigger:{
+    trigger:".page2",
+    scroller:"body",
+    markers:true,
+    start:"top 30%",
+    end: "top 10%",
+    scrub: 2,
+    pin: true,
+  }
+})

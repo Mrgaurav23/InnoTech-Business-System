@@ -220,7 +220,6 @@ nav img {
   margin-top: 8vh;
   display: flex;
   gap: 3vw;
-  overflow-x: auto;
 }
 
 #page2-box .box {
@@ -230,7 +229,6 @@ nav img {
   align-items: center;
   justify-content: center;
   position: relative;
-  overflow-x: auto;
 }
 
 .box h3 {
