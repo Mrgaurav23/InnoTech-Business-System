@@ -227,13 +227,13 @@ nav img {
   letter-spacing: 0.1vw;
 }
 
-#page2-box {
+.page2-box {
   margin-top: 8vh;
   display: flex;
   gap: 3vw;
 }
 
-#page2-box .box {
+.page2-box .box {
   height: 65.5vh;
   width: 28vw;
   display: flex;
@@ -269,6 +269,7 @@ nav img {
   position: absolute;
   right: 0px;
   transition: 1s;
+  object-fit: cover;
 }
 
 .box img:hover {
@@ -279,6 +280,7 @@ nav img {
   position: absolute;
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 .page2 button{
@@ -409,13 +411,22 @@ nav img {
   color: #edecec;
 }
 
-.page4-left button{
+.page4-left a{
   position: absolute;
   padding: 10px 20px;
   border-radius: 50px;
   bottom: 20%;
   border: 0;
   background-color: #006dfc;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.page4-left a:hover{
+  background-color: #BEBEBE;
+  color: #000000;
+  transition: all ease 0.2s;
 }
 
 .page4-right{
@@ -513,7 +524,7 @@ nav img {
 
 footer{
   position: relative;
-  height: 65vh;
+  height: 60vh;
   width: 100vw;
   background-color: #000;
   padding: 2vw;

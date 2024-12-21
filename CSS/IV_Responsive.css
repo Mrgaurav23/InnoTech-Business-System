@@ -1,0 +1,143 @@
+/* Existing styles... */
+
+/* Responsive styles for phones */
+
+.full-div {
+  height: 100vh;
+  width: 100vw;
+  padding: 10px;
+}
+
+.full-div-inner {
+  flex-direction: column;
+  padding: 5vw 2vw;
+}
+
+.full-div-left,
+.full-div-right {
+  width: 100%;
+  height: auto;
+}
+
+.full-div span {
+  font-size: 4vw;
+}
+
+.full-div a {
+  font-size: 4vw;
+}
+
+.full-div-right ul a {
+  font-size: 5vw;
+}
+
+nav {
+  height: 60px;
+  padding: 1vw 2vw;
+}
+
+.nav-inner button {
+  font-size: 3vw;
+  padding: 5px 15px;
+}
+
+nav img {
+  height: 40px;
+  width: 40px;
+}
+
+.page1 {
+  flex-direction: column;
+  height: auto;
+}
+
+.page1-left,
+.page1-right {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+}
+
+.page1-left h1,
+.page1-left h2 {
+  font-size: 6vw;
+  margin-left: 0;
+}
+
+.page1-left p {
+  font-size: 3vw;
+  margin-left: 0;
+  width: 90%;
+}
+
+.page1-left button {
+  font-size: 3vw;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10%;
+}
+
+.page1-right iframe {
+  width: 90%;
+  height: auto;
+  margin-left: 0;
+}
+
+.page2 {
+  height: auto;
+  padding: 20px;
+}
+
+.page2-title,
+.page2-heading,
+.page2-text {
+  font-size: 4vw;
+}
+
+.page3 {
+  height: auto;
+  padding: 20px;
+}
+
+.page3-title,
+.page3-text,
+.page3-link,
+.page3-links p {
+  font-size: 4vw;
+}
+
+footer {
+  height: auto;
+  padding: 20px;
+}
+
+.footer-inner {
+  flex-direction: column;
+}
+
+.footer-left,
+.footer-right {
+  width: 100%;
+}
+
+.footer-left img {
+  width: 20vw;
+}
+
+.footer-left h1 {
+  font-size: 4vw;
+}
+
+.footer-left button {
+  font-size: 4vw;
+}
+
+.footer-right-left span,
+.footer-right-right span {
+  font-size: 4vw;
+}
+
+.footer-right-left a,
+.footer-right-right a {
+  font-size: 4vw;
+}

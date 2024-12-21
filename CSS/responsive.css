@@ -198,9 +198,9 @@ nav img {
   flex-direction: column;
 }
 
-#page2-box button{
+/* #page2-box button{
   opacity: 1;
-}
+} */
 
 .page2 h1 {
   font-size: 4.5vw;
@@ -216,13 +216,15 @@ nav img {
   letter-spacing: 0.1vw;
 }
 
-#page2-box {
+.page2-box {
+  transform: translateX("100%");
   margin-top: 8vh;
   display: flex;
+  overflow-x: auto;
   gap: 3vw;
 }
 
-#page2-box .box {
+.page2-box .box {
   height: 45vh;
   width: 95vw;
   display: flex;
@@ -458,10 +460,10 @@ nav img {
 
 .page5 .right{
   background-color: #888686;
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
   color: black;
-  padding: 4vw;
+  padding: 2vw;
 }
 
 footer{
