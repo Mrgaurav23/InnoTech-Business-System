@@ -145,20 +145,26 @@ nav img {
   padding-top: 160px;
 }
 .slide{
-  width: 500px;
-  height: 60%;
-  margin-left: 5vw;
+  width: 600px;
+  height: 350px;
   transition: 1s ;
   position: absolute;
 }
 
 .slidebtn{
   text-align: center;
-  margin-top: 275px;
+  position: absolute;
+  right: 50%;
+  bottom: 2%;
 }
 .slidebtn button{
   font-size: 25px; 
-  padding: 3px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
 }
 
 

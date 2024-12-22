@@ -90,7 +90,7 @@ const goNext = () => {
 const slideImage = () => {
   slides.forEach(
     (slide) => {
-      slide.style.transform = `translateX(-${counter * 100}%)`
+      slide.style.transform = `translateX(-${counter * 125}%)`
     }
   )
 }
