@@ -116,8 +116,7 @@ nav img {
   width: 100vw;
   position: relative;
 }
-.page1-left,
-.page1-right {
+.page1-left {
   width: 50vw;
   height: 80vh;
   display: flex;
@@ -125,6 +124,7 @@ nav img {
   position: relative;
   padding-top: 160px;
 }
+
 .page1-left h1,
 .page1-left h2 {
   margin: 0;
@@ -134,6 +134,34 @@ nav img {
   font-family: sans-serif;
   margin-left: 10vw;
 }
+
+/* slider */
+
+.page1-right{
+  width: 50vw;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+  padding-top: 160px;
+}
+.slide{
+  width: 500px;
+  height: 60%;
+  margin-left: 5vw;
+  transition: 1s ;
+  position: absolute;
+}
+
+.slidebtn{
+  text-align: center;
+  margin-top: 275px;
+}
+.slidebtn button{
+  font-size: 25px; 
+  padding: 3px;
+}
+
+
 .page1-left p {
   font-size: 1.5rem;
   text-align: center;
