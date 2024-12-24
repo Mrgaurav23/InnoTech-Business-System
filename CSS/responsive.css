@@ -395,13 +395,14 @@ nav img {
   color: #edecec;
 }
 
-.page4-left button{
+.page4-left a{
   position: absolute;
   padding: 10px 20px;
   border-radius: 50px;
-  bottom: 10%;
+  bottom: 8%;
   width: 90vw;
   background-color: #006dfc;
+  text-align: center;
 }
 
 .page4-left button:hover{

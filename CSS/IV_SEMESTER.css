@@ -112,7 +112,7 @@ nav img {
 
 .page1 {
   display: flex;
-  height: 80vh;
+  height: 90vh;
   width: 100vw;
   position: relative;
 }
@@ -154,14 +154,14 @@ nav img {
 .slidebtn{
   text-align: center;
   position: absolute;
-  right: 50%;
   bottom: 2%;
+  right: 45%;
 }
 .slidebtn button{
-  font-size: 25px; 
+  font-size: 35px; 
   padding: 5px 10px;
-  background-color: #007bff;
-  border-radius: 10px;
+  background-color: #e0eaea70;
+  border-radius: 50%;
   border: none;
   margin: 5px;
   cursor: pointer;
