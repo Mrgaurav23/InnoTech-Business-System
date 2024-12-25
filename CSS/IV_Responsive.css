@@ -219,7 +219,7 @@ page 1
 }
 
 .page3 {
-  height: 40vh;
+  height: 150vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -236,16 +236,39 @@ page 1
 .page3-text {
   font-size: 1.0rem;
   text-align: center;
-  margin-bottom: 40px;
   color: #ffffffac;
   width: 80vw;
+  margin-bottom: 0;
 }
+
+.subject-boxes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  width: 90vw;
+  height: 25vh;
+}
+
+.subject-boxes h1{
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 90vw;
+  margin-bottom: 10px;
+}
+
 .page3-links {
   display: flex;
-  width: 85vw;
+  flex-direction: column;
+  height: 5vh;
+  width: 90vw;
+  gap: 10px;
+  margin-top: 10px;
 }
+
 .page3-link {
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   text-decoration: none;
   color: #007bff;
   font-weight: 400;
@@ -255,9 +278,9 @@ page 1
 }
 .page3-links p {
   font-size: 0.8rem;
-  margin-bottom: 25px;
   font-weight: 300;
   margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 footer {

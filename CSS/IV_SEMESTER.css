@@ -222,7 +222,7 @@ nav img {
 }
 
 .page3 {
-  height: 70vh;
+  height: 120vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -238,11 +238,29 @@ nav img {
 .page3-text {
   font-size: 1.5rem;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   color: #ffffffac;
 }
+
+.subject-boxes{
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 3vw;
+  border-radius: 20px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.subject-boxes h1{
+  font-size: 2.5rem;
+  font-weight: 600;
+  width: 20vw;
+}
+
 .page3-links {
   display: flex;
+  flex-direction: column;
 }
 .page3-link {
   font-size: 1.5rem;
@@ -255,7 +273,7 @@ nav img {
 }
 .page3-links p {
   font-size: 1.5rem;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   font-weight: 300;
 }
 
