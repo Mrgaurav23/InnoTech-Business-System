@@ -57,6 +57,7 @@ function fontChange() {
     }
     setTimeout(updateText, 1500);
   }
+  updateText();
 }
 
 //page2 box transiton Text

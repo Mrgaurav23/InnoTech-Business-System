@@ -66,26 +66,46 @@ function navbar() {
     }
   });
 }
-navbar();
 
-const slides = document.querySelectorAll(".slide");
-var counter = 0;
-slides.forEach((slide, index) => {
-  slide.style.left = `${index * 100}%`;
-});
-
-const goPrev = () => {
-  counter--;
-  slideImage();
-};
-
-const goNext = () => {
-  counter++;
-  slideImage();
-};
-
-const slideImage = () => {
-  slides.forEach((slide) => {
-    slide.style.transform = `translateX(-${counter * 112}%)`;
+function slider() {
+  const slides = document.querySelectorAll(".slide");
+  let arrowLeft = document.querySelector(".arrow-left");
+  let arrowRight = document.querySelector(".arrow-right");
+  var counter = 0;
+  slides.forEach((slide, index) => {
+    slide.style.left = `${index * 100}%`;
   });
-};
+
+  arrowLeft.addEventListener("click", () => {
+    if(counter < slides.length){
+      counter--;
+      slideImage();
+    }
+    else{
+      counter = slides.length - 3;
+    }
+  });
+  
+  arrowRight.addEventListener("click", () => {
+    if(counter < slides.length - 1){
+      counter++;
+      slideImage();
+    }
+    else{
+      counter = -1;
+    }
+  });
+
+  const slideImage = () => {
+    slides.forEach((slide) => {
+      slide.style.transform = `translateX(-${counter * 125}%)`;
+    });
+  };
+}
+
+function calling() {
+  locomotive();
+  navbar();
+  slider();
+}
+calling();

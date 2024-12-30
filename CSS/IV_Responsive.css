@@ -165,6 +165,7 @@ page 1
   width: 350px;
   height: 250px;
   border: 2px solid #000;
+  margin: 2vw;
 }
 .slide {
   width: 300px;
