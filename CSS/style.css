@@ -25,6 +25,7 @@ body {
   top: 0%;
   transition: all ease 0.8s;
   opacity: 0;
+  display: none;
 }
 
 .full-div-inner {
@@ -365,6 +366,7 @@ nav img {
   display: flex;
   border-bottom: 1px solid #BEBEBE;
   flex-direction: column;
+  /* margin: 2vw; */
 }
 
 .page4 h1{
@@ -476,7 +478,6 @@ nav img {
   background-color: #080808;
   height: 115vh;
   width: 50vw;
-  
 }
 .page5 .right{
   background-color: #cac9c9;

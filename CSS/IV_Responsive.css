@@ -13,7 +13,7 @@ body {
 
 /* full div */
 .full-div {
-  height: 100vh;
+  height: 110vh;
   width: 100vw;
   position: absolute;
   background-color: #1b1616;
@@ -67,7 +67,7 @@ body {
 }
 
 .full-div-right ul a {
-  font-size: 8vw;
+  font-size: 6vw;
   font-weight: 600;
 }
 
@@ -112,18 +112,18 @@ page 1
 
 .page1 {
   display: flex;
-  height: 100vh;
+  height: 105vh;
   width: 100vw;
   position: relative;
   flex-direction: column;
 }
 .page1-left {
   width: 100vw;
-  height: 70vh;
+  height: 45vh;
   display: flex;
   flex-direction: column;
   position: relative;
-  padding-top: 150px;
+  padding-top: 20vh;
 }
 
 .page1-left h1,
@@ -143,15 +143,6 @@ page 1
   margin: 0 auto;
   margin-top: 32px;
 }
-.page1-left button {
-  padding: 10px 20px;
-  font-size: 1rem;
-  cursor: pointer;
-  background-color: rgb(144, 168, 216);
-  position: absolute;
-  left: 30%;
-  bottom: 0%;
-}
 /* slider */
 
 .page1-right {
@@ -159,14 +150,26 @@ page 1
   height: 60vh;
   position: relative;
   overflow: hidden;
-  padding-top: 15px;
+  padding-top: 0px;
 }
+
+.page1-right-inner{
+  width: 100vw;
+  height: 60vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2vw;
+}
+
 .page1-right iframe {
-  width: 350px;
+  width: 90%;
   height: 250px;
   border: 2px solid #000;
   margin: 2vw;
 }
+
 .slide {
   width: 300px;
   height: 150px;
@@ -175,11 +178,10 @@ page 1
 }
 
 .slidebtn {
-  text-align: center;
-  position: absolute;
-  right: 37%;
-  bottom: 10%;
+  display: flex;
+  margin-right: -10vw;
 }
+
 .slidebtn button {
   font-size: 35px;
   padding: 5px 10px;
@@ -191,7 +193,7 @@ page 1
 }
 
 .page2 {
-  height: 45vh;
+  height: 60vh;
   width: 100vw;
   display: flex;
   flex-direction: column;

@@ -95,6 +95,7 @@ function navbar(){
       menu.style.backgroundColor = "transparent";
       menu.style.border = "0.5px solid rgb(161, 161, 161)";
       menu.style.borderRadius = "20px";
+      navBar.style.display = "block";
       flag = 1;
     }
     else{

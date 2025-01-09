@@ -343,7 +343,7 @@ nav img {
 /* page4 */
 .page4{
   position: relative;
-  height: 365vh;
+  height: 400vh;
   width: 100vw;
   background-color: #000000;
   padding: 4vw 2vw;
@@ -371,7 +371,7 @@ nav img {
 }
 
 .page4-left{
-  height: 40vh;
+  height: 47vh;
   width: 95vw;
   position: relative;
 }
@@ -450,6 +450,9 @@ nav img {
   flex-direction: column;
   background-color: #000;
   padding-top: 5vh;
+  margin: 1vw;
+  height: 200vh;
+  width: 100vw;
 }
 
 .page5 .left{
@@ -459,12 +462,37 @@ nav img {
   padding: 4vw;
 }
 
+.page5 .left p{
+  font-size: 3.5vw;
+}
+
+.page5 .left h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  font-size: 6vw;
+}
+
 .page5 .right{
   background-color: #888686;
-  height: 120vh;
+  height: 100vh;
   width: 100vw;
   color: black;
   padding: 2vw;
+}
+.page5 .right h1{
+  letter-spacing: 0.1vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-size: 6vw;
+  font-weight: 700;
+}
+
+.page5 .right p{
+  font-size: 3.5vw;
 }
 
 footer{

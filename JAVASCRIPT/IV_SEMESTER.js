@@ -50,6 +50,7 @@ function navbar() {
     if (flag === 0) {
       navBar.style.top = "-150%";
       navBar.style.opacity = 0;
+      navBar.style.display = "block";
       menu.textContent = "Menu";
       menu.style.color = "#FFFFFF";
       menu.style.backgroundColor = "transparent";
@@ -98,7 +99,7 @@ function slider() {
 
   const slideImage = () => {
     slides.forEach((slide) => {
-      slide.style.transform = `translateX(-${counter * 125}%)`;
+      slide.style.transform = `translateX(-${counter * 108}%)`;
     });
   };
 }
