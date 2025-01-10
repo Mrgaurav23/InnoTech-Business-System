@@ -99,7 +99,7 @@ function slider() {
 
   const slideImage = () => {
     slides.forEach((slide) => {
-      slide.style.transform = `translateX(-${counter * 108}%)`;
+      slide.style.transform = `translateX(-${counter * 110}%)`;
     });
   };
 }
