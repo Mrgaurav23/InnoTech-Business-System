@@ -36,12 +36,12 @@ body {
 
 .full-div-left {
   height: 90vh;
-  width: 30vw;
+  width: 50vw;
 }
 
 .full-div-right {
   height: 90vh;
-  width: 70vw;
+  width: 50vw;
 }
 
 .full-div span {
@@ -195,7 +195,7 @@ nav img {
 
 /* page 2 */
 .page2 {
-  height: 20vw;
+  height: 40vw;
   width: 100vw;
   display: flex;
   flex-direction: column;
